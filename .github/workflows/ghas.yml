@@ -1,8 +1,6 @@
 name: "Sync GHAS to Jira"
 
 on:
-  schedule:
-    - cron: '*/6 * * * *' 
   workflow_dispatch:
     inputs:
       logLevel:
